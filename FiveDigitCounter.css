@@ -1,0 +1,124 @@
+#outer-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 500px;
+    background-color: #D8F8FF;
+ }
+ #counter{
+      height:170px;
+      margin:50px 40px 0px 40px ;
+      width: 92vw;
+     
+     background: linear-gradient( 45deg,#A6EFF1,#E5B2DB);
+ }
+ 
+ #restriction{
+    font-weight: bolder;
+     letter-spacing: 5px;
+     font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: whitesmoke;
+ }
+ 
+ #enter-num{
+     /* display: inline-block; */
+     margin-left: -440px;
+     margin-top: 30px;
+     /* position: fixed; */
+ }
+  
+ #number{
+     height: 30px;
+     width: 30vw;
+ }
+ #start-btn{
+   margin-left: 65vw;
+   margin-top: -30px;
+ 
+ }
+ #start-btn button{
+  font-size: 20px;
+  box-shadow: 0px 5px 20px white;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+ }
+ 
+ 
+ 
+
+#second-div {
+    background-color: #555555;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.output {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 15%;
+    max-width: 80px;
+    height: 80px;
+    margin: auto 10px;
+    box-shadow: 0px 0px 5px white;
+    position: relative;
+    overflow: hidden;
+}
+
+.output p {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    line-height: 80px;
+    border-top: 2px solid black;
+    background-color: aliceblue;
+}
+
+p.next {
+    position: absolute;
+    top: 80px;
+}
+
+p.animate {
+    transition-duration: 0.5s;
+    top: 0px;
+}
+ 
+ 
+ 
+ 
+ @media screen and (max-width:600px){
+     #counter{
+       width: auto;
+       margin: 30px 20px 0px 20px;
+     }
+     #enter-num{
+         margin-left: -230px;
+     }
+     #start-btn{
+         margin-left: 50vw;
+     }
+ 
+     #second-div{
+         width: auto;
+         margin: 35px 50px 0px 50px;
+     }
+     
+     p.next{
+       top:70vw;
+       width: 64px;
+       color: #555555;
+     }
+     p.animate {
+         transition-duration: 0.5s;
+         top: 0px;
+     }
+ }
+ 
+ 
